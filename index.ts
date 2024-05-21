@@ -3,7 +3,7 @@ import inquirer from "inquirer";
 import chalk from "chalk";
 
 // Print welcome message
-console.log(chalk.rgb(255,192,0)("\n\t Welcome to CodeWithZefi - Currency Converter\n\t"));
+console.log(chalk.rgb(255,192,0)("\n\t Welcome to CodeWithZefi - Word Counter Project\n\t"));
 
 // Function to count characters and words
 function countCharactersAndWords(paragraph: string) {

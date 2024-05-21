@@ -1,10 +1,12 @@
 {
   "name": "zefi_word_counter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI based Word Counter app with TypeScript, Node.js, Inquirer and Chalk",
   "main": "index.js",
   "type": "module",
-  "bin": "index.js",
+  "bin": {
+    "zefi_word_counter": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
